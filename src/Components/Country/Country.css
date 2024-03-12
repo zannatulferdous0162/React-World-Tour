@@ -1,6 +1,11 @@
 .country{
-    border: 2px solid purple;
+    border: 2px solid black;
     margin: 15px;
     padding: 15px;
     border-radius: 15px;
+}
+
+.visited{
+    background-color: blueviolet;
+    color: black;
 }
