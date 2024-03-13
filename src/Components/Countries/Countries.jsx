@@ -9,8 +9,6 @@ const Countries = () => {
     const [visitedCountries, setVisitedCounteies] = useState([]);
     const [visitedFlags, setVisitedFlags] = useState([]);
 
-
-  
      
     useEffect(() =>{
         fetch('https://restcountries.com/v3.1/all')
@@ -29,7 +27,9 @@ const Countries = () => {
        const  newVisitedFlags = [...visitedFlags, flag];
        setVisitedFlags(newVisitedFlags);
     }
-
+    //reove
+    //remove item from an array in a state
+    //use filter to select all the elements except the one you want to remove
    
     return (
 
